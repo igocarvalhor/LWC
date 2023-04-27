@@ -1,0 +1,14 @@
+template{
+    height: 50%;
+}
+
+h1{
+    color:blue;
+    padding: 50px;
+}
+
+p{
+    padding-left: 20px;
+    background-color: aliceblue;
+    align-items: center;
+}

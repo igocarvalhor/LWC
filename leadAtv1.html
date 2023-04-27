@@ -1,0 +1,19 @@
+<template>
+    
+    <lightning-card class="slds-grid">
+        <div  class="slds-p-around_medium">
+
+            <h1 class="slds-text-heading_medium" >Lead</h1><br/>
+
+            <template for:each={lead} for:item="cliente" >
+             
+                <h1 key={cliente.cod}> Nome: {cliente.nome} {cliente.sobrenome}></h1>
+                <p key={cliente.cod}>  idade: {cliente.numero}, email: {cliente.email}, classificação {cliente.classificacao}, Empresa: {cliente.empresa}, Receita anual {cliente.receitaanual}</p> 
+
+            </template>
+          
+
+        </div>
+    </lightning-card>
+    
+</template>

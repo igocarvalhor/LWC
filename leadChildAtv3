@@ -1,0 +1,12 @@
+<template>
+    <lightning-card class="slds-grid">
+        <h1 class="slds-text-heading_medium">Lead</h1>
+
+        <c-lead3 name="Pedrão" status="open-Not Contacted" stage="Warm" ></c-lead3><br/>
+        <c-lead3 name="Paulão" status="open-Not Contacted" stage="Warm"></c-lead3><br/>
+        <c-lead3 name="Zezão" status="open-Not Contacted" stage="Warm"></c-lead3><br/>
+        <c-lead3 name="Maurão" status="open-Not Contacted" stage="Warm"></c-lead3><br/>
+
+        
+    </lightning-card>
+</template>
